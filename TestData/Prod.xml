@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:msxsl="urn:schemas-microsoft-com:xslt"
+          xmlns:x="urn:schemas-microsoft-com:office:excel"
+          xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+   <Styles>
+      <Style ss:ID="head_cell_style">
+         <Font ss:Bold="1" x:Family="Swiss"/>
+         <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+         </Borders>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+         <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+      </Style>
+      <Style ss:ID="value_row_style">
+         <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+         </Borders>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="Prod">
+      <Table ss:DefaultRowHeight="13.2" x:FullColumns="1" x:FullRows="1">
+         <Column ss:Index="1" ss:Width="100"/>
+         <Column ss:Index="2" ss:Width="100"/>
+         <Row>
+            <Cell ss:StyleID="head_cell_style">
+               <Data ss:Type="String">Var Name</Data>
+            </Cell>
+            <Cell ss:StyleID="head_cell_style">
+               <Data ss:Type="String">Value</Data>
+            </Cell>
+         </Row>
+      </Table>
+   </Worksheet>
+</Workbook>

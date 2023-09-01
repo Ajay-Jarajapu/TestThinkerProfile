@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:msxsl="urn:schemas-microsoft-com:xslt"
+          xmlns:x="urn:schemas-microsoft-com:office:excel"
+          xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+   <Styles>
+      <Style ss:ID="head_cell_style">
+         <Font ss:Bold="1" x:Family="Swiss"/>
+         <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+         </Borders>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+         <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+      </Style>
+      <Style ss:ID="value_row_style">
+         <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+         </Borders>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="Dev">
+      <Table ss:DefaultRowHeight="13.2" x:FullColumns="1" x:FullRows="1">
+         <Column ss:Index="1" ss:Width="100"/>
+         <Column ss:Index="2" ss:Width="100"/>
+         <Row>
+            <Cell ss:StyleID="head_cell_style">
+               <Data ss:Type="String">Var Name</Data>
+            </Cell>
+            <Cell ss:StyleID="head_cell_style">
+               <Data ss:Type="String">Value</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">URL</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">https://thinking-tester-contact-list.herokuapp.com/</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">fname</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">test34</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">lname</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">thinker</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">email</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">test37thinker@gmail.com</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">password</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">encrypt:W3sopwdPQDGsh7zPeK6KMw==</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">firstname1</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">test1</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">lastname1</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">automation</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">email1</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">test1automation@gmail.com</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">phone1</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">678903</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">firstname2</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">test2</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">lastname2</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">automation</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">email2</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">test2automation@gmail.com</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">phone2</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">678904</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">firstname3</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">test3</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">lastname3</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">automation</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">email3</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">test3automation@gmail.com</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">phone3</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">678905</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">update_email</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">abc@gmail.com</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">change_email</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">abc@gmail.com</Data>
+            </Cell>
+         </Row>
+      </Table>
+   </Worksheet>
+</Workbook>

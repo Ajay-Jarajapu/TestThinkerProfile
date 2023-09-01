@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+          xmlns:msxsl="urn:schemas-microsoft-com:xslt"
+          xmlns:x="urn:schemas-microsoft-com:office:excel"
+          xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+   <Styles>
+      <Style ss:ID="head_cell_style">
+         <Font ss:Bold="1" x:Family="Swiss"/>
+         <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+         </Borders>
+         <Interior ss:Color="#C0C0C0" ss:Pattern="Solid"/>
+         <Alignment ss:Vertical="Bottom" ss:WrapText="1"/>
+      </Style>
+      <Style ss:ID="value_row_style">
+         <Borders>
+            <Border ss:LineStyle="Continuous" ss:Position="Left" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Right" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Top" ss:Weight="1"/>
+            <Border ss:LineStyle="Continuous" ss:Position="Bottom" ss:Weight="1"/>
+         </Borders>
+      </Style>
+   </Styles>
+   <Worksheet ss:Name="contactsPage">
+      <Table ss:DefaultRowHeight="15"
+             ss:ExpandedColumnCount="5"
+             x:FullColumns="1"
+             x:FullRows="1">
+         <Column ss:Index="1" ss:Width="100"/>
+         <Column ss:Index="2" ss:Width="100"/>
+         <Column ss:Index="3" ss:Width="100"/>
+         <Column ss:Index="4" ss:Width="100"/>
+         <Column ss:Index="5" ss:Width="100"/>
+         <Row>
+            <Cell ss:StyleID="head_cell_style">
+               <Data ss:Type="String">Object Name</Data>
+            </Cell>
+            <Cell ss:StyleID="head_cell_style">
+               <Data ss:Type="String">Find By</Data>
+            </Cell>
+            <Cell ss:StyleID="head_cell_style">
+               <Data ss:Type="String">Identification</Data>
+            </Cell>
+            <Cell ss:StyleID="head_cell_style">
+               <Data ss:Type="String">Type</Data>
+            </Cell>
+            <Cell ss:StyleID="head_cell_style">
+               <Data ss:Type="String">Notes</Data>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">firstName</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//input[@id='firstName']</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Textbox</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">lastName</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//input[@id='lastName']</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Textbox</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">email</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//input[@id='email']</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Textbox</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">phone</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//input[@id='phone']</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Textbox</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Button_Contact_Submit</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//button[@id='submit']</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Button</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">user1_email</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//table[@id='myTable']/tr[1]/td[4]</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Textbox</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">user1_phone</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//table[@id='myTable']/tr[1]/td[5]</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Textbox</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">user2_email</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//table[@id='myTable']/tr[2]/td[4]</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Textbox</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">user2_phone</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//table[@id='myTable']/tr[2]/td[5]</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Textbox</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">user3_email</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//table[@id='myTable']/tr[3]/td[4]</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Textbox</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">user3_phone</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//table[@id='myTable']/tr[3]/td[5]</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Textbox</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Button_Edit_Contact</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//button[@id='edit-contact']</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Button</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">check_email</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//span[@id='email']</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Textbox</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Button_Return_to_ContactList</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//button[@id='return']</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Button</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+         <Row>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Button_logout</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Xpath</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">//button[@id='logout']</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String">Button</Data>
+            </Cell>
+            <Cell ss:StyleID="value_row_style">
+               <Data ss:Type="String"/>
+            </Cell>
+         </Row>
+      </Table>
+   </Worksheet>
+</Workbook>
